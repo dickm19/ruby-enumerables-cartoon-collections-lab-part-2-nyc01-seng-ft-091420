@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |element|
     valid_calls.each do |v|
       if element == v
-        element
+        return element
       end
     end
   end
