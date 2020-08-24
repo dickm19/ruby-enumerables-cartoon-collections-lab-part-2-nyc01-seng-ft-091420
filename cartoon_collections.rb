@@ -32,7 +32,7 @@ def find_valid_calls(planeteer_calls)
       if element == v
         return element
       else
-        nil
+        return nil
       end
     end
   end
