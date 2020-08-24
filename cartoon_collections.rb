@@ -31,8 +31,7 @@ def find_valid_calls(planeteer_calls)
     valid_calls.each do |v|
       if element == v
         return element
-      else
-        return nil
+      
       end
     end
   end
